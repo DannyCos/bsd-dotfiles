@@ -1,0 +1,2 @@
+#!/bin/sh
+feh --no-fehbg --bg-center --no-xinerama '/usr/home/danny/Downloads/backgrounds/modded/sunset-or-sunrise-higher-crop.jpg' 
