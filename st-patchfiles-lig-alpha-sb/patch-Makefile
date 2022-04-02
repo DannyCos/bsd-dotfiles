@@ -1,0 +1,21 @@
+--- Makefile.orig	2022-01-07 11:41:35.000000000 +0000
++++ Makefile	2022-03-20 02:02:16.148620000 +0000
+@@ -4,7 +4,7 @@
+ 
+ include config.mk
+ 
+-SRC = st.c x.c
++SRC = st.c x.c hb.c
+ OBJ = $(SRC:.c=.o)
+ 
+ all: options st
+@@ -22,7 +22,8 @@
+ 	$(CC) $(STCFLAGS) -c $<
+ 
+ st.o: config.h st.h win.h
+-x.o: arg.h config.h st.h win.h
++x.o: arg.h config.h st.h win.h hb.h
++hb.o: st.h
+ 
+ $(OBJ): config.h config.mk
+ 
