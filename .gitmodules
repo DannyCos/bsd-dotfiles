@@ -1,0 +1,9 @@
+[submodule "patchfiles/st-patchfiles"]
+	path = patchfiles/st-patchfiles
+	url = https://github.com/DannyCos/st-patchfiles
+[submodule "patchfiles/dwm-patchfiles"]
+	path = patchfiles/dwm-patchfiles
+	url = https://github.com/DannyCos/dwm-patchfiles
+[submodule "patchfiles/dmenu-patchfiles"]
+	path = patchfiles/dmenu-patchfiles
+	url = https://github.com/DannyCos/dmenu-patchfiles
